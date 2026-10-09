@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ district }} - AMR Risk Level</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Current AMR Risk Level (H.P.)</h1>
+        <p>Antimicrobial Resistance Risk Information</p>
+    </header>
+
+    <main class="container">
+
+        <div class="section-title">
+            <h2>{{ district }} District</h2>
+            <p>
+                Available antimicrobial resistance risk information
+                for {{ district }}.
+            </p>
+        </div>
+
+        {% if data %}
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>AMR Area</th>
+                        <th>Evidence</th>
+                        <th>Risk Level</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for item in data %}
+                    <tr>
+                        <td>
+                            <strong>{{ item.area }}</strong>
+                        </td>
+
+                        <td>
+                            {{ item.evidence }}
+                        </td>
+
+                        <td class="risk">
+                            {{ item.risk }}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- References Section -->
+        <section class="references-section">
+
+            <h3>References</h3>
+
+            <ol>
+                <li>
+                    NCDC.
+                    <em>National Antimicrobial Resistance Surveillance
+                    Network (NARS-Net) – Annual Reports.</em>
+                    Ministry of Health &amp; Family Welfare,
+                    Government of India.
+                </li>
+
+                <li>
+                    Avatsingh AU, et al.
+                    <em>Front Microbiol.</em>
+                    2023;14:1227132.
+                    DOI:
+                    <a href="https://doi.org/10.3389/fmicb.2023.1227132"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        10.3389/fmicb.2023.1227132
+                    </a>.
+                </li>
+
+                <li>
+                    Dorjee K, et al.
+                    <em>Indian J Tuberc.</em>
+                    2020;67(1):59–64.
+                    DOI:
+                    <a href="https://doi.org/10.1016/j.ijtb.2019.08.005"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        10.1016/j.ijtb.2019.08.005
+                    </a>.
+                </li>
+
+                <li>
+                    Negi R, Kumar A.
+                    <em>Indian J Anim Sci.</em>
+                    2024;94(10):886–891.
+                    DOI:
+                    <a href="https://doi.org/10.56093/ijans.v94i10.152864"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        10.56093/ijans.v94i10.152864
+                    </a>.
+                </li>
+
+                <li>
+                    NCDC.
+                    <em>National Antibiotic Consumption Network
+                    (NAC-NET) – Surveillance of Antimicrobial
+                    Consumption.</em>
+                </li>
+            </ol>
+
+        </section>
+
+        <section class="district-note">
+            <h3>Data Information</h3>
+            <p>
+                The risk information shown above is based on the
+                available evidence provided for this district.
+                The references listed below the data are provided
+                as sources for the project and should be checked
+                against individual claims.
+            </p>
+        </section>
+
+        <div class="legend">
+            <h3>Risk Level Guide</h3>
+
+            <p>
+                🔴 <strong>High / Very High</strong> —
+                Strong evidence of AMR risk.
+            </p>
+
+            <p>
+                🟠 <strong>Moderate–High</strong> —
+                Notable AMR risk indicated.
+            </p>
+
+            <p>
+                🟡 <strong>Data Gap</strong> —
+                Limited available district-level data.
+            </p>
+        </div>
+
+        {% else %}
+
+        <div class="no-data">
+            <h3>Data Not Available</h3>
+            <p>
+                AMR data for this district has not been added yet.
+            </p>
+        </div>
+
+        {% endif %}
+
+        <a href="/" class="back-button">
+            ← Back to Districts
+        </a>
+
+    </main>
+
+    <footer class="footer">
+        <p>Current AMR Risk Level (H.P.)</p>
+        <p>
+            Antimicrobial Resistance Information —
+            Himachal Pradesh
+        </p>
+    </footer>
+
+</body>
+</html>

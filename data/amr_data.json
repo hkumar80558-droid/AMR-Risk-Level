@@ -1,0 +1,447 @@
+
+{
+  "Solan": [
+    {
+      "area": "Hospital/clinical AMR",
+      "evidence": "CRE, carbapenemase and NDM-1 detected in Solan hospital",
+      "risk": "🔴 High–Very High"
+    },
+    {
+      "area": "Multidrug-resistant bacteria",
+      "evidence": "MDR E. coli, Pseudomonas and MRSA reported",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "Hospital wastewater",
+      "evidence": "MDR organisms detected before treatment",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "Municipal wastewater",
+      "evidence": "MDR E. coli and P. aeruginosa detected",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "Irrigation wastewater",
+      "evidence": "ESBL-positive/resistant Gram-negative bacteria detected",
+      "risk": "🟠 Moderate–High"
+    },
+    {
+      "area": "Antibiotic-use pressure",
+      "evidence": "Solan included in a multicentre Indian antibiotic-use/knowledge study",
+      "risk": "🟠 Potentially High"
+    },
+    {
+      "area": "District-wide surveillance",
+      "evidence": "Limited publicly available district-level continuous data",
+      "risk": "🟡 Data gap"
+    }
+  ],
+  "Bilaspur": [
+    {
+      "area": "Hospital/clinical AMR",
+      "evidence": "Limited published isolate-level data. AIIMS Bilaspur monitors resistance, runs an Antimicrobial Stewardship Program and detects AMR genes. Regional Himalayan studies report high carbapenem resistance in Acinetobacter and Pseudomonas.",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "Multidrug-resistant bacteria",
+      "evidence": "MDR Gram-negative bacteria are expected in hospital settings based on Himachal and national patterns. Specific public reports of MDR E. coli, Pseudomonas or MRSA from Bilaspur hospitals are limited.",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "Hospital wastewater",
+      "evidence": "The provided evidence reports AIIMS Bilaspur participation in multicentre hospital wastewater AMR surveillance studies linked to ICMR.",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "Municipal wastewater",
+      "evidence": "No specific published detection of MDR E. coli or P. aeruginosa in Bilaspur municipal wastewater is identified in the provided evidence.",
+      "risk": "🟠 Data gap / Potentially High"
+    },
+    {
+      "area": "Irrigation wastewater",
+      "evidence": "No Bilaspur-specific published study was identified in the provided evidence. Regional lower-Himalayan irrigation water studies report ESBL-positive Gram-negative bacteria.",
+      "risk": "🟠 Moderate–High"
+    },
+    {
+      "area": "Antibiotic-use pressure",
+      "evidence": "High empirical antibiotic use and over-the-counter antibiotic sales are reported as statewide concerns in Himachal Pradesh. Bilaspur-specific measurements are not provided.",
+      "risk": "🟠 Potentially High"
+    },
+    {
+      "area": "District-wide surveillance",
+      "evidence": "Limited publicly available continuous district-level AMR data. The provided evidence states that AIIMS Bilaspur is strengthening local monitoring.",
+      "risk": "🟡 Data gap"
+    }
+  ],
+  "Mandi": [
+    {
+      "area": "Hospital/clinical AMR",
+      "evidence": "Limited published isolate-level data from SLBSGMC Mandi or district hospitals. Regional Himalayan tertiary-care studies report high carbapenem resistance in Acinetobacter baumannii (68–73%) and Pseudomonas.",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "Multidrug-resistant bacteria",
+      "evidence": "MDR patterns are expected in hospital settings based on Himachal statewide data. Specific public reports of MDR E. coli, Klebsiella or MRSA numbers from Mandi hospitals are scarce. MDR-TB is well documented in the district.",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "Hospital wastewater",
+      "evidence": "No Mandi-specific published detection of MDR organisms in hospital wastewater was identified in the provided evidence. SLBSGMC Mandi and district hospitals generate wastewater, but public testing data are limited.",
+      "risk": "🟠 Potentially High"
+    },
+    {
+      "area": "Municipal wastewater",
+      "evidence": "No specific published MDR E. coli or P. aeruginosa detection from Mandi municipal wastewater was identified in the provided evidence.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Irrigation wastewater",
+      "evidence": "No Mandi-specific published studies were identified in the provided evidence. Regional lower-Himalayan irrigation water studies report ESBL-positive Gram-negative bacteria. The provided evidence also mentions colistin-resistant isolates in the Mandi area in a 2021 environmental water study.",
+      "risk": "🟠 Moderate–High"
+    },
+    {
+      "area": "Antibiotic-use pressure",
+      "evidence": "High empirical antibiotic use and over-the-counter antibiotic sales are reported as statewide issues in Himachal Pradesh. The provided evidence indicates that Mandi follows the same pattern.",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "District-wide surveillance",
+      "evidence": "The provided evidence reports strong data availability for MDR-TB. Continuous bacterial AMR surveillance across hospitals and environmental sources remains limited compared with Kangra.",
+      "risk": "🟡 Partial data"
+    }
+  ],
+  "Kangra": [
+    {
+      "area": "Hospital/clinical AMR",
+      "evidence": "Two-year analysis of urine isolates from DRPGMC Kangra (2024–25) reported high resistance among common uropathogens, including E. coli, Klebsiella and Pseudomonas. Increased resistance to third-generation cephalosporins, fluoroquinolones and carbapenems was reported.",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "Multidrug-resistant (MDR) bacteria",
+      "evidence": "A drug-resistant TB study reported rifampicin resistance in 20% of enrolled patients and 25% of Xpert-positive patients. Reports also mention MDR E. coli, Klebsiella and MRSA from district hospitals.",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "Hospital wastewater",
+      "evidence": "District-specific hospital wastewater AMR data are limited. Resistant Gram-negative bacteria may be a concern in wastewater from tertiary-care hospitals such as DRPGMC Kangra.",
+      "risk": "🟠 Potentially High"
+    },
+    {
+      "area": "Municipal wastewater",
+      "evidence": "Comprehensive district-level AMR surveillance data for municipal wastewater are not available in the reviewed sources. Urban population growth and tourism indicate a need for monitoring.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Irrigation/environmental water",
+      "evidence": "Kangra is identified as a comparison site in environmental AMR surveillance research. Regional studies have detected ESBL-producing Gram-negative bacteria in surface and irrigation water.",
+      "risk": "🟠 Moderate–High"
+    },
+    {
+      "area": "Antibiotic-use pressure",
+      "evidence": "A community survey in Kangra (2024, n=400) reported that 21.8% purchased antibiotics without a prescription, 19.3% used leftover antibiotics, and 29.8% stopped antibiotics when feeling better.",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "District-wide surveillance",
+      "evidence": "HISP India has collaborated with DRPGMC Kangra for digital AMR surveillance using a DHIS2-based system. Surveillance exists but is not comprehensive for all bacterial pathogens.",
+      "risk": "🟡 Partial"
+    }
+  ],
+  "Chamba": [
+    {
+      "area": "Hospital/clinical AMR",
+      "evidence": "A study at Government Medical College-Chamba (2020) examined 984 patients. Of these, 220 (22.35%) received antibiotics, 52% of prescriptions were reported as irrational, 19.53% involved antibiotic combinations, and fluoroquinolones accounted for 17.36% of prescriptions.",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "MDR/DR-TB",
+      "evidence": "A study of hilly districts in Himachal Pradesh included Chamba in a pooled group with Solan, Shimla and Kullu. The pooled group reported 3 rifampicin-resistant cases among 7 patients. A separate Chamba-specific MDR-TB rate was not available.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Hospital wastewater",
+      "evidence": "No robust Chamba-specific published hospital wastewater AMR surveillance was identified in the reviewed sources. Healthcare facilities generate wastewater that may contribute to environmental AMR.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Municipal wastewater",
+      "evidence": "No Chamba-specific published detection of multidrug-resistant bacteria in municipal wastewater was identified in the reviewed sources.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Irrigation/environmental water",
+      "evidence": "Strong Chamba-specific published AMR data for irrigation or environmental water were not identified in the reviewed sources.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Antibiotic-use pressure",
+      "evidence": "The Government Medical College-Chamba prescription study (2020) reported substantial antibiotic use and a high proportion of irrational prescribing, indicating antibiotic-use pressure.",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "District-wide surveillance",
+      "evidence": "General health surveillance exists through systems such as IDSP/IHIP. Comprehensive district-wide bacterial AMR surveillance for Chamba was not publicly documented in the reviewed sources.",
+      "risk": "🟡 Partial"
+    }
+  ],
+  "Hamirpur": [
+    {
+      "area": "Hospital/clinical AMR",
+      "evidence": "District-specific routine bacterial AMR surveillance is limited. Published district evidence is stronger for antibiotic use and TB drug resistance than for routine bacterial antibiotic susceptibility testing.",
+      "risk": "🟠 Data gap / Potentially High"
+    },
+    {
+      "area": "MDR/DR-TB",
+      "evidence": "A 2019 study using TB-office data from Hamirpur, Bilaspur and Solan reported pooled MDR-TB prevalence of 3.14% across the three districts. Among new TB cases, prevalence was 2.42%, compared with 9% among previously treated cases. A separate Hamirpur study reported 93 MDR cases among 2,277 TB patients during 2011–2018.",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "Hospital/pharmaceutical waste",
+      "evidence": "A 2024 Himachal study sampled hospital and pharmaceutical waste-disposal sites, including work based at Career Point University, Hamirpur. Four of 29 isolates were MDR, including Pseudomonas aeruginosa resistant to all 15 tested antibiotics. This is site-level evidence, not district-wide prevalence.",
+      "risk": "🟠 Potentially High"
+    },
+    {
+      "area": "Municipal wastewater",
+      "evidence": "No robust Hamirpur-specific published AMR surveillance dataset for municipal wastewater was identified in the reviewed sources.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Irrigation/environmental water",
+      "evidence": "No strong Hamirpur-specific published AMR water dataset was identified in the reviewed sources. Broader Himachal environmental studies report ESBL-producing and resistant Gram-negative bacteria in selected watersheds.",
+      "risk": "🟠 Data gap / Moderate concern"
+    },
+    {
+      "area": "Antibiotic-use pressure",
+      "evidence": "District-specific quantitative community antibiotic-consumption data are limited. Irrational prescribing and antimicrobial misuse are recognized AMR drivers, while healthcare connectivity and referral movement may influence antibiotic-use patterns.",
+      "risk": "🟠 Moderate–High / Data gap"
+    },
+    {
+      "area": "District-wide surveillance",
+      "evidence": "General disease and TB surveillance exists, but comprehensive district-wide bacterial AMR surveillance is not publicly documented in the reviewed sources.",
+      "risk": "🟡 Partial"
+    }
+  ],
+  "Kinnaur": [
+    {
+      "area": "Hospital/clinical AMR",
+      "evidence": "No routine district-wide bacterial AMR surveillance or antibiogram data for Kinnaur were identified in the reviewed sources. Patients may be referred to higher centres, including IGMC Shimla and regional hospitals, limiting local clinical AMR data.",
+      "risk": "🟡 Data gap / Insufficient evidence"
+    },
+    {
+      "area": "MDR/DR-TB",
+      "evidence": "Drug-resistant TB is a relevant concern in Himachal Pradesh. A high-altitude study reported rifampicin-resistant TB in mountainous districts, but no district-specific MDR-TB estimate for Kinnaur was identified. Kinnaur was selected to launch a TB Elimination Campaign at Sangla in 2022.",
+      "risk": "🟡 Data gap / Surveillance present"
+    },
+    {
+      "area": "Hospital/pharmaceutical waste",
+      "evidence": "No Kinnaur-specific hospital or pharmaceutical waste AMR surveillance data were identified in the reviewed literature. Healthcare facilities generate waste, but site-specific AMR evidence is lacking.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Municipal wastewater",
+      "evidence": "No published detection of multidrug-resistant bacteria in Kinnaur municipal wastewater was identified in the reviewed sources. Monitoring is needed, particularly in growing towns and tourist areas such as Sangla, Kalpa and Reckong Peo.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Irrigation/environmental water",
+      "evidence": "A 2023 study in lower Himalayan agro-ecosystems reported multidrug-resistant and ESBL-producing Gram-negative bacteria in irrigation-purpose wastewater. District-specific results for Kinnaur were not provided.",
+      "risk": "🟡 Data gap / Regional concern"
+    },
+    {
+      "area": "Antibiotic-use pressure (One Health)",
+      "evidence": "A 2024 study surveyed 162 farmers from high-altitude Lahaul, Spiti and Kinnaur and reported antibiotic-use practices involving yaks, dzomo and hill cattle. The findings indicate veterinary antibiotic use in the high-altitude livestock context, but do not establish a Kinnaur-specific prevalence rate.",
+      "risk": "🟠 Moderate concern"
+    },
+    {
+      "area": "District-wide surveillance",
+      "evidence": "General disease surveillance exists through systems such as IDSP/IHIP and the National TB Elimination Programme. Comprehensive district-wide bacterial AMR surveillance covering clinical, environmental and One Health settings is not publicly documented in the reviewed sources.",
+      "risk": "🟡 Partial / Data gap"
+    }
+  ],
+     "Kullu": [
+    {
+      "area": "Hospital/clinical AMR",
+      "evidence": "No comprehensive Kullu-specific bacterial AMR surveillance or antibiogram data found in reviewed literature. Patients are often referred to higher centres such as IGMC Shimla and DRPGMC Kangra, limiting local clinical AMR data.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "MDR/DR-TB",
+      "evidence": "Kullu was included in the 'Others' category in a multi-district study on rifampicin-resistant TB in Himachal Pradesh. A separate district-specific MDR-TB rate was not reported. TB remains a concern in hilly regions due to difficult terrain and delayed diagnosis.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Hospital/pharmaceutical waste",
+      "evidence": "No Kullu-specific hospital or pharmaceutical waste AMR surveillance was found. Healthcare facilities generate biomedical waste, but site-specific AMR data are lacking.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Municipal wastewater",
+      "evidence": "No published detection of MDR bacteria in Kullu municipal wastewater was found in reviewed sources. Tourism and urbanisation around Manali and surrounding areas may increase potential AMR spread.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Irrigation/environmental water",
+      "evidence": "ICAR-DCFR reported antimicrobial resistance in E. coli isolates from fish farms in Kullu-Mandi and Bilaspur districts, including resistance to ampicillin (29.4%), cefoxitin (27.5%) and cefotaxime (23.5%).",
+      "risk": "🟠 Moderate"
+    },
+    {
+      "area": "Antibiotic-use pressure",
+      "evidence": "Quantitative district-specific community antibiotic-consumption data are unavailable. Irrational antibiotic use, self-medication and incomplete courses may contribute to AMR. Tourism and seasonal population influx in Manali may increase antibiotic use.",
+      "risk": "🟠 Moderate (probability high)"
+    },
+    {
+      "area": "District-wide surveillance",
+      "evidence": "General disease surveillance exists through IDSP/IHIP. Comprehensive district-wide bacterial AMR surveillance covering clinical, environmental and One Health settings is not publicly documented.",
+      "risk": "🟡 Partial / Data gap"
+    }
+  ],
+   "Lahaul and Spiti": [
+    {
+      "area": "Hospital/clinical AMR",
+      "evidence": "No Lahaul and Spiti-specific bacterial AMR surveillance or antibiogram data were identified in reviewed literature. Patients are commonly referred to higher centres, including IGMC Shimla, Tanda, Manali and DRPGMC Kangra, limiting local clinical AMR data. Imported AMR risk cannot be excluded.",
+      "risk": "🟡 Data gap / Insufficient evidence"
+    },
+    {
+      "area": "MDR/DR-TB",
+      "evidence": "Lahaul and Spiti was included in the 'Others' category in a multi-district Himachal study on rifampicin-resistant TB. No separate district-specific MDR-TB rate was available. Remote, high-altitude terrain can delay diagnosis and access to diagnostic facilities.",
+      "risk": "🟡 Data gap (surveillance not district-specific)"
+    },
+    {
+      "area": "Hospital/pharmaceutical waste",
+      "evidence": "No Lahaul and Spiti-specific hospital or pharmaceutical-waste AMR data were identified. Healthcare facilities, including the district hospital at Keylong and smaller CHCs, generate biomedical waste, but site-specific AMR data are lacking.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Municipal wastewater",
+      "evidence": "No published detection of MDR bacteria in Lahaul and Spiti municipal wastewater was found in reviewed literature. Sewage infrastructure is limited and the population is small, although tourism inflows around Keylong and Jispa may increase future monitoring needs.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Irrigation/environmental water",
+      "evidence": "No Lahaul & Spiti-specific AMR data for irrigation or environmental water were identified. Studies from lower-Himalayan districts such as Solan, Sirmaur and Kangra have reported ESBL-producing and multidrug-resistant Gram-negative bacteria in water sources; these are regional findings, not district-specific detections.",
+      "risk": "🟡 Data gap / Regional concern"
+    },
+    {
+      "area": "Antibiotic-use pressure",
+      "evidence": "No quantitative district-specific antibiotic-consumption data are available. In remote high-altitude areas, empirical antibiotic use may be influenced by limited diagnostic facilities and difficult healthcare access. Seasonal tourism and livestock, including yaks, dzomo, sheep and goats, may also affect antibiotic-use pressure.",
+      "risk": "🟠 Moderate concern (potential risk)"
+    },
+    {
+      "area": "District-wide surveillance",
+      "evidence": "General disease surveillance exists through district IDSP/IHIP reporting units. Dedicated comprehensive bacterial AMR surveillance across clinical, environmental and One Health settings is not publicly documented for Lahaul & Spiti.",
+      "risk": "🟡 Partial / Major data gap"
+    }
+  ],
+  "Shimla": [
+    {
+      "area": "Hospital/clinical AMR",
+      "evidence": "IGMC Shimla is identified as the only NARS-Net AMR surveillance laboratory in Himachal Pradesh. Clinical studies from IGMC report multidrug-resistant organisms, including MRSA, ESBL-producing Enterobacteriaceae, and carbapenem-resistant Acinetobacter and Pseudomonas in clinical samples. Patients referred from across the state increase the importance of responsible antibiotic use and surveillance.",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "MDR/DR-TB",
+      "evidence": "Rifampicin-resistant TB has been reported in Himachal Pradesh, with Shimla included in multi-district hilly-region studies. Shimla contributes cases to the state TB programme, although an exact separate district-specific rate was not reported in the cited summary.",
+      "risk": "🟠 Moderate–High"
+    },
+    {
+      "area": "Hospital/pharmaceutical waste",
+      "evidence": "Shimla has a high concentration of healthcare facilities, including IGMC, private hospitals and diagnostic centres, generating biomedical and pharmaceutical waste. Himachal environmental studies have recovered multidrug-resistant bacteria, including Pseudomonas species, from hospital/pharmaceutical waste sites, including Shimla.",
+      "risk": "🟠 Moderate–High"
+    },
+    {
+      "area": "Municipal wastewater",
+      "evidence": "A 2026 study reported a multidrug-resistant Enterobacter bugandensis isolate from Shimla wastewater carrying multiple antimicrobial-resistance genes, including beta-lactamases. This indicates clinically relevant resistant bacteria in urban wastewater.",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "Irrigation/environmental water",
+      "evidence": "Strong Shimla-specific published AMR data for irrigation water were not identified in the provided summary. Studies in other Himachal districts, including Solan, Sirmaur and Kangra, report ESBL-producing and multidrug-resistant Gram-negative bacteria in water sources, indicating a regional concern rather than confirmed Shimla-specific prevalence.",
+      "risk": "🟡 Data gap / Potential risk"
+    },
+    {
+      "area": "Antibiotic-use pressure",
+      "evidence": "As a major tertiary-care and referral centre, IGMC Shimla has substantial antibiotic use. Empirical prescribing, self-medication and inappropriate use are recognised AMR drivers. High tourist influx during peak seasons may also increase community antibiotic use.",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "District-wide surveillance",
+      "evidence": "IGMC Shimla is a NARS-Net site and provides regular WHONET-based AMR surveillance data. Comprehensive district-wide surveillance across community, environmental and One Health settings remains limited beyond the medical-college network.",
+      "risk": "🟡 Partial (active NARS-Net)"
+    }
+  ],
+  "Sirmaur": [
+    {
+      "area": "Hospital/clinical AMR",
+      "evidence": "No comprehensive Sirmaur-specific bacterial AMR surveillance or antibiogram data were available in the reviewed literature. Patients with severe infections may be referred to higher centres such as IGMC Shimla. Regional Himachal studies report multidrug-resistant Gram-negative bacteria in clinical settings, but these do not establish Sirmaur-specific prevalence.",
+      "risk": "🟠 Data gap / Potentially high"
+    },
+    {
+      "area": "MDR/DR-TB",
+      "evidence": "Sirmaur was not separately reported in major district-wise MDR-TB studies and was included in an 'Others' category in one study. Rifampicin-resistant TB has been reported in Himachal Pradesh's hilly districts, making it a regional concern, but a Sirmaur-specific rate was not available.",
+      "risk": "🟡 Data gap / Moderate concern"
+    },
+    {
+      "area": "Hospital/pharmaceutical waste",
+      "evidence": "No Sirmaur-specific hospital or pharmaceutical-waste AMR data were identified. Healthcare facilities generate biomedical waste that may contribute to environmental AMR, but site-specific evidence is lacking.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Municipal wastewater",
+      "evidence": "Sirmaur-specific municipal wastewater AMR surveillance is limited. Urbanisation in areas such as Paonta Sahib and Nahan may increase the importance of wastewater monitoring, but published district-specific data are limited.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Irrigation/environmental water",
+      "evidence": "A 2023 study analysed irrigation-purpose wastewater from 10 Sirmaur locations, including Baru Sahib, Kakli, Lana Machher, Kheri, Dadahu and Rajgarh. It detected resistant Gram-negative bacteria including E. coli, Enterobacter, Hafnia, Shigella, Citrobacter and Klebsiella, with ESBL-producing isolates indicating environmental AMR.",
+      "risk": "🔴 High"
+    },
+    {
+      "area": "Antibiotic-use pressure",
+      "evidence": "District-specific quantitative community antibiotic-consumption data are not available. Irrational antibiotic use, self-medication and incomplete courses are recognised regional drivers. Agricultural activities, horticulture and livestock may also contribute to environmental antibiotic-use pressure.",
+      "risk": "🟠 Moderate–High (One Health concern)"
+    },
+    {
+      "area": "District-wide surveillance",
+      "evidence": "General disease surveillance exists through IDSP/IHIP reporting units. Comprehensive district-wide bacterial AMR surveillance across clinical, environmental and One Health settings is not publicly documented for Sirmaur.",
+      "risk": "🟡 Partial / Data gap"
+    }
+  ],
+  "Una": [
+    {
+      "area": "Hospital/clinical AMR",
+      "evidence": "No comprehensive Una-specific bacterial AMR or antibiogram dataset was identified in the reviewed public literature. Regional Hospital Una and district health facilities provide clinical services, but routine district-wide bacterial resistance data are not publicly documented.",
+      "risk": "🟡 Data gap / Insufficient evidence"
+    },
+    {
+      "area": "MDR/DR-TB",
+      "evidence": "A study of DR-TB suspects referred from Kangra and Una (July 2012–June 2013) included 89 smear-positive patients and 79 Xpert-positive patients. Rifampicin resistance was 11/89 (12.4%) among smear-positive patients and 11/79 (14%) among Xpert-positive patients. These are results among evaluated patients, not population prevalence estimates.",
+      "risk": "🟠 Moderate–High / Documented DR-TB"
+    },
+    {
+      "area": "Hospital/pharmaceutical waste",
+      "evidence": "No Una-specific published AMR surveillance dataset for hospital or pharmaceutical waste was identified. District healthcare facilities generate biomedical waste, but resistant-organism surveillance is a data gap.",
+      "risk": "🟡 Data gap"
+    },
+    {
+      "area": "Municipal wastewater",
+      "evidence": "No robust Una-specific published dataset detecting multidrug-resistant bacteria or AMR in municipal wastewater was identified in the reviewed sources. Urban growth and healthcare wastewater support the need for targeted monitoring.",
+      "risk": "🟡 Data gap / Potential concern"
+    },
+    {
+      "area": "Irrigation/environmental water",
+      "evidence": "No strong Una-specific published AMR dataset for irrigation water was identified. Environmental studies in other Himachal districts, including Solan, Sirmaur and Kangra, report ESBL-producing and multidrug-resistant Gram-negative bacteria in irrigation-purpose wastewater. These regional findings support surveillance rather than assuming Una is low risk.",
+      "risk": "🟡 Data gap / Regional concern"
+    },
+    {
+      "area": "Antibiotic-use pressure",
+      "evidence": "District-specific quantitative antibiotic-consumption data are limited. Empirical prescribing, self-medication and incomplete antibiotic courses are recognised AMR drivers; local pharmacy and prescription audits would be needed to measure these practices in Una.",
+      "risk": "🟠 Moderate concern / Data gap"
+    },
+    {
+      "area": "District-wide surveillance",
+      "evidence": "Una has district TB services and routine public-health reporting, but comprehensive clinical, environmental and One Health AMR surveillance is not publicly documented. A district TB centre is listed under the state TB programme.",
+      "risk": "🟡 Partial / Data gap"
+    }
+  ]
+}

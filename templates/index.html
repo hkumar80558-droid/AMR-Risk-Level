@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Current AMR Risk Level (H.P.)</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+    <style>
+        /* AMR Disclaimer Styling */
+        .disclaimer {
+            background-color: #fff8e7;
+            border: 1px solid #e8c76a;
+            border-left: 5px solid #d99a00;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 24px auto;
+            max-width: 775px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .disclaimer h2 {
+            color: #704b00;
+            font-size: 20px;
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+
+        .disclaimer p {
+            color: #333333;
+            font-size: 14px;
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+
+        .disclaimer p:last-child {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 600px) {
+            .disclaimer {
+                padding: 15px;
+                margin: 18px 10px;
+            }
+
+            .disclaimer h2 {
+                font-size: 18px;
+            }
+
+            .disclaimer p {
+                font-size: 13px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="header">
+
+        <h1>Current AMR Risk Level (H.P.)</h1>
+
+        <p>
+            Antimicrobial Resistance Risk Information
+            — Himachal Pradesh
+        </p>
+
+    </header>
+
+
+    <!-- Main Content -->
+
+    <main class="container">
+
+
+        <!-- About AMR -->
+
+        <section class="about">
+
+            <h2>About Antimicrobial Resistance (AMR)</h2>
+
+            <p>
+                Antimicrobial Resistance (AMR) occurs when
+                microorganisms become resistant to medicines
+                used to treat infections.
+            </p>
+
+            <p>
+                This project presents available AMR risk
+                information for districts of Himachal Pradesh.
+                Select a district below to view its available
+                information.
+            </p>
+
+        </section>
+
+
+        <!-- AMR Data Disclaimer -->
+
+        <section class="disclaimer">
+
+            <h2>⚠️ Disclaimer</h2>
+
+            <p>
+                The Himachal Pradesh district-wise AMR information
+                presented here is compiled from available published
+                studies, reports, and secondary sources. It is not
+                official, complete, or fully validated district-wise
+                AMR data.
+            </p>
+
+            <p>
+                Due to limited and uneven surveillance across districts,
+                the risk levels shown are indicative, evidence-informed
+                estimates only and should not be interpreted as actual
+                AMR prevalence or official risk scores for
+                Himachal Pradesh.
+            </p>
+
+        </section>
+
+
+        <!-- District Selection -->
+
+        <section class="district-section">
+
+            <div class="section-title">
+
+                <h2>Select a District</h2>
+
+                <p>
+                    Select a district to view its AMR risk information.
+                </p>
+
+            </div>
+
+
+            <div class="districts">
+
+                {% for district in districts %}
+
+                    <a class="district-card"
+                       href="/district/{{ district }}">
+
+                        {{ district }}
+
+                    </a>
+
+                {% endfor %}
+
+            </div>
+
+        </section>
+
+
+        <!-- Risk Level Information -->
+
+        <section class="risk-info">
+
+            <h2>Risk Level Information</h2>
+
+            <div class="risk-list">
+
+                <div>
+
+                    <strong>🔴 High / Very High</strong>
+
+                    <p>
+                        Strong evidence of AMR risk.
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <strong>🟠 Moderate–High</strong>
+
+                    <p>
+                        Evidence indicates a notable AMR risk.
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <strong>🟡 Data Gap</strong>
+
+                    <p>
+                        Limited publicly available
+                        district-level data.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Methodology -->
+
+        <section class="methodology">
+
+            <h2>Methodology</h2>
+
+            <p>
+                The AMR risk information presented in this project
+                is organized from available evidence related to
+                antimicrobial resistance, resistant microorganisms,
+                wastewater, antibiotic-use pressure, and
+                district-level surveillance information.
+            </p>
+
+        </section>
+
+
+        <!-- Important Note -->
+
+        <section class="note">
+
+            <h3>Important Note</h3>
+
+            <p>
+                The information displayed is based on available
+                evidence and publicly available data. It should
+                not be considered a clinical diagnosis or
+                individual medical advice.
+            </p>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <p>
+            Current AMR Risk Level (H.P.)
+        </p>
+
+        <p>
+            Antimicrobial Resistance Information —
+            Himachal Pradesh
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
